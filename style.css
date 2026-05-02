@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f0f8ff;
+    color: #2c3e50;
+    line-height: 1.6;
+    transition: 0.4s;
+}
+
+header {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+#toggleMode {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#kunjungan {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0077b6;
+}
+
+.profile-card, .contact-form, .contact {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.profile-img-container {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    border: 5px solid #90e0ef;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.bio {
+    margin: 20px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn, .btn-kirim, .show-btn {
+    background: #00b4d8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section-title {
+    margin-bottom: 15px;
+}
+
+.hobbies {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.hobby-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* DARK MODE */
+.dark {
+    background: #1a1a1a;
+    color: white;
+}
+
+.dark .profile-card,
+.dark .contact-form,
+.dark .contact,
+.dark .hobby-item {
+    background: #333;
+    color: white;
+}
+
+.dark input,
+.dark textarea {
+    background: #555;
+    color: white;
+}

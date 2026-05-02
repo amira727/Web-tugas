@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Amira</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h2>Profil Amira</h2>
+        <button id="toggleMode">🌙 Dark Mode</button>
+    </header>
+
+    <main class="container">
+
+        <!-- Counter Kunjungan -->
+        <p id="kunjungan"></p>
+
+        <!-- Profil -->
+        <section class="profile-card">
+            <div class="profile-img-container">
+                <img src="aku.jpg" alt="Amira" width="170">
+            </div>
+
+            <div class="bio">
+                <p><b>HALLO!!</b></p>
+                <p>Perkenalkan nama saya Amira Tussa'diyah dari jurusan Teknologi Informasi di UIN Walisongo Semarang angkatan 2025. Saya tertarik belajar web agar kedepannya bisa menjadi developer yang dapat menciptakan web yang berguna untuk semua orang :)</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/_amira_727?igsh=NDRsODM2cXpiOHlq" class="btn">INSTAGRAM</a>
+                <a href="https://www.linkedin.com/in/amira-tussa-diyah-08a166367" class="btn">LINKEDIN</a>
+                <a href="https://github.com/amira727" class="btn">GITHUB</a>
+            </div>
+        </section>
+
+        <!-- Tombol Hobi -->
+        <button id="btnHobi" class="show-btn">Lihat Hobi Saya</button>
+
+        <!-- Hobi -->
+        <section class="hobbies" id="dataHobi">
+            <h2 class="section-title">Hobi</h2>
+            <div class="hobby-item">🎵 Mendengar Musik</div>
+            <div class="hobby-item">📖 Membaca Novel</div>
+            <div class="hobby-item">🎮 Bermain Game</div>
+        </section>
+
+        <!-- Form Kontak -->
+        <section class="contact-form">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <form id="contactForm">
+                <input type="text" id="nama" placeholder="Masukkan Nama">
+                <input type="email" id="email" placeholder="Masukkan Email">
+                <textarea id="pesan" placeholder="Masukkan Pesan"></textarea>
+                <button type="submit" class="btn-kirim">Kirim</button>
+            </form>
+            <p id="hasil"></p>
+        </section>
+
+        <!-- Kontak -->
+        <section class="contact">
+            <h2 class="section-title">Kontak</h2>
+            <p>Email: diyahamira013@gmail.com</p>
+            <p>WhatsApp: 082199356053</p>
+        </section>
+    </main>
+    <footer>
+        <p>Dibuat dengan HTML CSS JavaScript oleh Amira Tussa'diyah © 2026</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
